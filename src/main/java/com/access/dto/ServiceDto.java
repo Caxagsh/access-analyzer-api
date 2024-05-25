@@ -1,7 +1,6 @@
 package com.access.dto;
 
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.*;
 import static com.access.messages.ValidationErrorMessages.*;
 
 //DTO for transfering data about client service (adding or updating service data)

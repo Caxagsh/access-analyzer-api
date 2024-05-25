@@ -1,7 +1,7 @@
 package com.access.dto;
 
 import jakarta.validation.constraints.*;
-import static com.access.ConstraintConstants.IP_SUBNET_REGEXP;
+import static com.access.ConstraintConstants.*;
 import static com.access.messages.ValidationErrorMessages.*;
 
 //DTO for transfering data about authentication failures (transfers for analyzing for attack possibility)
